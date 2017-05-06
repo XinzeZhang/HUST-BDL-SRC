@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Demo">
+</Property><Property Name="解决方案文件" Value="E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo.sln">
+</Property><Property Name="用户选项文件" Value="E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo.suo">
+</Property><Property Name="Date" Value="2010年11月5日">
+</Property><Property Name="Time" Value="9:38">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Demo.sln" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Demo.suo" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo.suo">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Demo.csproj" Description="项目文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Demo.csproj">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Demo.csproj.user" Description="项目用户文件成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Demo.csproj.user">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Form1.cs" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Form1.Designer.cs" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Program.cs" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Program.cs">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Properties\Resources.Designer.cs" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Properties\Settings.Designer.cs" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Demo_TemporaryKey.pfx" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Demo_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Properties\Settings.settings" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Form1.resx" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Properties\Resources.resx" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Properties\app.manifest" Description="文件已成功备份为 E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Backup\Demo\Properties\app.manifest">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Demo.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Demo" Source="Demo\Demo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Demo.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Demo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Demo.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>
