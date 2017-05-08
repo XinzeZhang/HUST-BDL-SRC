@@ -1,0 +1,58 @@
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.exe
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.pdb
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.exe.manifest
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.application
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.exe
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.pdb
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\bin\Debug\DesktopRfidApi.dll
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\obj\Debug\ResolveAssemblyReference.cache
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.Form1.resources
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.TrustInfo.xml
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.exe.manifest
+E:\读写器开发项目\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.application
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.exe
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.pdb
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.exe.manifest
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.application
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.exe
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.pdb
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\bin\Debug\DesktopRfidApi.dll
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\obj\Debug\ResolveAssemblyReference.cache
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.Form1.resources
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.TrustInfo.xml
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.exe.manifest
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.application
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\obj\Debug\Demo.exe
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\obj\Debug\Demo.pdb
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\bin\Debug\Demo.exe.manifest
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\bin\Debug\Demo.application
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\bin\Debug\Demo.exe
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\bin\Debug\Demo.pdb
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\bin\Debug\DesktopRfidApi.dll
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\obj\Debug\ResolveAssemblyReference.cache
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\obj\Debug\Demo.Form1.resources
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\obj\Debug\Demo.Properties.Resources.resources
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\obj\Debug\Demo.TrustInfo.xml
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\obj\Debug\Demo.exe.manifest
+E:\读写器开发项目\UHF READER 资料\UHF.Net Demo\C#Demo-M20101020更改(张海迪)\Demo\obj\Debug\Demo.application
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.exe
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.pdb
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\bin\Debug\Demo.exe.manifest
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\bin\Debug\Demo.application
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\bin\Debug\Demo.exe
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\bin\Debug\Demo.pdb
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\bin\Debug\DesktopRfidApi.dll
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.Form1.resources
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.Properties.Resources.resources
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.TrustInfo.xml
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.exe.manifest
+C:\Users\z\Downloads\API资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.application
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.exe
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.pdb
