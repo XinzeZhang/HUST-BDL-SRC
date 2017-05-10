@@ -1,0 +1,13 @@
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\bin\Debug\Demo.exe.manifest
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\bin\Debug\Demo.application
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\bin\Debug\Demo.exe
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\bin\Debug\Demo.pdb
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\bin\Debug\DesktopRfidApi.dll
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.Form1.resources
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.Properties.Resources.resources
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\obj\Debug\DemoCopy.csproj.GenerateResource.Cache
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.TrustInfo.xml
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.exe.manifest
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.application
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.exe
+C:\Users\z\Desktop\读卡器API备份资料\C#Demo-M20101020更改\Demo\obj\Debug\Demo.pdb

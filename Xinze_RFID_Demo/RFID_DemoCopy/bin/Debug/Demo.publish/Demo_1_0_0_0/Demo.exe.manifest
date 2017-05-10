@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Demo.exe" version="1.0.0.0" publicKeyToken="a4488cfd4f8c36a0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Demo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Demo.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Demo.exe" size="36864">
+      <assemblyIdentity name="Demo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Y84ncePoj9zzf5rD9K5nDMPU84M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RfidApiLib.dll" size="24576">
+      <assemblyIdentity name="RfidApiLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+h1QeQpaz5S6CVY4JCOspbXGH8Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=ABC-A5A8E75543F\OK" issuerKeyHash="aa0bce82fbb04b91dc5e36ff81c054dae0c25391" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>kHrEeYNKJhmu15iI62qm5E+AMv0=</DigestValue></Reference></SignedInfo><SignatureValue>b33asRT8gmeEy94Im5+EK4rVJXgfMNvEL9oL1avW2ffUJbnCM5y68W8RKKFL2k0i04mCRaaRxR5QqXWsuuYHGyHUyaEHLdO5tIfqPLdo75L0OqczON19MzEJ5NQ5VUKlpS6yu2ja6/UCTM1JlBlWAp1iWiIh1fw94ktLXoltTQY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>9yqM+zhm11hARhPAsZ8d0CDgv6qTKZyYZuLRaSzqOWNVmmm43+RbuVig/qBeuIvHRl+1t6ftJEPLl24m2pPa1GRRyA/Z0v58+cm/lVOSr36u6qBU4lExJNvYGO5FICngRl2r3nQUAZS0NpbpzIAuw9GJ18blr5pu/XgOoyb3v8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fd32804fe4a66aeb8898d7ae19264a8379c47a90" Description="" Url=""><as:assemblyIdentity name="Demo.exe" version="1.0.0.0" publicKeyToken="a4488cfd4f8c36a0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ABC-A5A8E75543F\OK</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Se/0Qg4/jIYzeVCfJ3YCJigbf0M=</DigestValue></Reference></SignedInfo><SignatureValue>FkwmVQjYo2txM4SkN8OOvAkqqqlJTffAmoXdZbtD+sOOrXM2IQAMB26KYAvKh3Pbds9WiHE9XINUcaTu8sEWHm+2T9U0UMmfoGH644TumZvVwKAXPJ0CgCtO2RpEsRnYDS4XEbFiJzhtrw+mwoLyTcGQ5g8N03nIvlILQMXJibM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9yqM+zhm11hARhPAsZ8d0CDgv6qTKZyYZuLRaSzqOWNVmmm43+RbuVig/qBeuIvHRl+1t6ftJEPLl24m2pPa1GRRyA/Z0v58+cm/lVOSr36u6qBU4lExJNvYGO5FICngRl2r3nQUAZS0NpbpzIAuw9GJ18blr5pu/XgOoyb3v8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUagAwIBAgIQ7Vj8nM9e0KVKaPCFdmE94zAJBgUrDgMCHQUAMC8xLTArBgNVBAMeJABBAEIAQwAtAEEANQBBADgARQA3ADUANQA0ADMARgBcAE8ASzAeFw0wODA4MjMwNDAyNDRaFw0wOTA4MjMxMDAyNDRaMC8xLTArBgNVBAMeJABBAEIAQwAtAEEANQBBADgARQA3ADUANQA0ADMARgBcAE8ASzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA9yqM+zhm11hARhPAsZ8d0CDgv6qTKZyYZuLRaSzqOWNVmmm43+RbuVig/qBeuIvHRl+1t6ftJEPLl24m2pPa1GRRyA/Z0v58+cm/lVOSr36u6qBU4lExJNvYGO5FICngRl2r3nQUAZS0NpbpzIAuw9GJ18blr5pu/XgOoyb3v8ECAwEAATAJBgUrDgMCHQUAA4GBADJxVzMLYBj9Cf6QFBmremJNXvvdlIBSjuKWPLkkzH/C2UnidcCdidZQmRMVb3BPPxlUk+NWDhFd+973Z0P/QnZXW48A/4QTjZRDOmNHMrMDxflFPnb44Z0MCB9TdZ/ikt6+LHyTpqafTOvD124IfSeMp19/s/r+0Hxa1VRsrfY6</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

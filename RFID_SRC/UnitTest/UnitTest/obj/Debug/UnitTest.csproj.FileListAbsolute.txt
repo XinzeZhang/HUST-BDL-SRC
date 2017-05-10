@@ -1,6 +1,0 @@
-D:\Desktop\WSTL_RFID\UnitTest\UnitTest\bin\Debug\UnitTest.exe.config
-D:\Desktop\WSTL_RFID\UnitTest\UnitTest\bin\Debug\UnitTest.exe
-D:\Desktop\WSTL_RFID\UnitTest\UnitTest\bin\Debug\UnitTest.pdb
-D:\Desktop\WSTL_RFID\UnitTest\UnitTest\obj\Debug\UnitTest.exe
-D:\Desktop\WSTL_RFID\UnitTest\UnitTest\obj\Debug\UnitTest.pdb
-D:\Desktop\WSTL_RFID\UnitTest\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache

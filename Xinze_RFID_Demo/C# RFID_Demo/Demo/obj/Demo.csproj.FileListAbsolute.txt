@@ -1,0 +1,31 @@
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\obj\Debug\Demo.exe
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\obj\Debug\Demo.pdb
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\bin\Debug\Demo.exe.manifest
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\bin\Debug\Demo.application
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\bin\Debug\Demo.exe
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\bin\Debug\Demo.pdb
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\bin\Debug\RfidApiLib.dll
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\bin\Debug\RfidApiLib.pdb
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\obj\Debug\ResolveAssemblyReference.cache
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\obj\Debug\Demo.Form1.resources
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\obj\Debug\Demo.TrustInfo.xml
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\obj\Debug\Demo.exe.manifest
+E:\四端口演示及SDK_CN\邵小兵归档\UHF915Demo\Demo\Demo\obj\Debug\Demo.application
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.exe
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.pdb
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\obj\Debug\ResolveAssemblyReference.cache
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.Form1.resources
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.exe.manifest
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.application
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.exe
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\bin\Debug\Demo.pdb
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\bin\Debug\RfidApiLib.dll
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\bin\Debug\RfidApiLib.pdb
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.TrustInfo.xml
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.exe.manifest
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\obj\Debug\Demo.application
+E:\邵小兵归档\UHF.Net Demo\C#Demo\Demo\bin\Debug\DesktopRfidApi.dll
