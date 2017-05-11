@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="./css/ol.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/layout.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap-responsive.min.css" type="text/css">
+
+      <title>test ws</title>
+    <style>
+      a.skiplink {
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0;
+        border: 0;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+      }
+      a.skiplink:focus {
+        clip: auto;
+        height: auto;
+        width: auto;
+        background-color: #fff;
+        padding: 0.3em;
+      }
+      #map {
+          position: relative;
+      }
+      #popup {
+          padding-bottom: 45px;
+      }
+
+      #dbgout {
+        height: 350 px;
+        width: 800 px;
+      }
+    </style>
+	  <script type="text/javascript" src="localization_client.js" ></script>
+  </head>
+
+
+
+  <body>
+<div class="page-header">
+  <h1>websocket测试</h1>
+</div>
+    <div class="container">
+        <input type="text"  class="form-control" placeholder="服务器IP"  value="127.0.0.1" id="serverip" >
+        <button class="btn btn-primary" type="button" onclick="ToggleBasicClicked()">连接服务器</button>
+    </div> 
+</div>
+ <div class="container">
+   <textarea  id="dbgout" style='border: 1px solid #94BBE2;width:100%;' rows=15 onpropertychange='this.style.posHeight=this.scrollHeight'  onfocus='textarea.style.posHeight=this.scrollHeight'  readonly="true">
+       调试信息
+    </textarea>
+ </div>>
+  </body>
+</html>
