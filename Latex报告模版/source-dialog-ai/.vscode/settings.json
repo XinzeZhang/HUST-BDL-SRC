@@ -1,0 +1,43 @@
+// 将设置放入此文件中以覆盖默认值和用户设置。
+{
+    "files.autoSave": "onWindowChange",
+    "latex-workshop.latex.toolchain": [
+    {
+        "command": "xelatex",
+        "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+        ]
+    }, {
+        "command": "bibtex",
+        "args": [
+        "%DOCFILE%"
+        ]
+    }, {
+        "command": "xelatex",
+        "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+        ]
+    }, {
+        "command": "xelatex",
+        "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+        ]
+     }
+    ],
+    "latex-workshop.latex.autoBuild.onTexChange.enabled": true,
+    "latex-workshop.latex.clean.enabled": true,
+    "latex-workshop.viewer.hand": true,
+    "latex-workshop.chktex.enabled": true,
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "boundary",
+    "latex-workshop.view.pdf.hand": true
+}

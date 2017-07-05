@@ -8,8 +8,10 @@ using System.IO.Ports;
 using Hit.Common;
 using ReaderB;
 
+
 namespace Hit.RFID
 {
+    
     public class ReaderHandle
     {
         // 端口号
@@ -40,6 +42,7 @@ namespace Hit.RFID
         private int EraseMaxLen = 50;
         private int WriteMaxLen = 50;
         private int WriteTryMaxCount = 20;
+
         
         /// <summary>
         /// 打开串口

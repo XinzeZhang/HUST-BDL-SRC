@@ -1,0 +1,156 @@
+\documentclass{article}
+
+\usepackage{geometry}
+\geometry{a4paper,scale=0.8,centering}
+
+\usepackage[UTF8,heading=true]{ctex}
+
+\usepackage{times}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{latexsym}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{comment}
+\usetikzlibrary{arrows}
+\usetikzlibrary{positioning,shadows.blur}
+
+\renewcommand{\labelitemi}{\ding{112}}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xifthen}
+
+\usepackage{graphicx}
+\usepackage{graphics}
+\graphicspath{ {./figures/} }
+
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{array}
+
+\usepackage{float}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+\usetikzlibrary{shapes.geometric, arrows, patterns, decorations.pathreplacing}
+
+\newcommand{\them}[0]{\textbf{read:}\ }
+\newcommand{\you}[0]{\textbf{write:}\ }
+
+
+\newcommand{\likelihood}[0]{\textsc{likelihood}\ }
+\newcommand{\reinforce}[0]{\textsc{rl}\ }
+\newcommand{\rollouts}[0]{\textsc{rollouts}\ }
+\newcommand{\rlrollouts}[0]{\textsc{rl+rollouts}\ }
+
+\renewcommand{\vec}[1]{#1}
+% 修改脚注
+\usepackage{pifont}
+\renewcommand{\thefootnote}{\ding{\numexpr171+\value{footnote}}}
+\newcommand\wordnote[1]{\footnote{\zihao{5}{#1}}}
+
+\newcommand\quotes[1]{``{#1}''}
+
+\usepackage[super,square,sort]{natbib}
+
+\usepackage{enumitem}
+
+\newcommand{\bmx}[0]{\begin{bmatrix}}
+\newcommand{\emx}[0]{\end{bmatrix}}
+\newcommand{\qt}[1]{\left<#1\right>}
+\newcommand{\qexp}[1]{\left<#1\right>}
+\newcommand{\qlay}[1]{\left[#1\right]}
+\newcommand{\vect}[1]{\mathbf{#1}}
+\newcommand{\vects}[1]{\boldsymbol{#1}}
+\newcommand{\matr}[1]{\mathbf{#1}}
+\newcommand{\var}[0]{\operatorname{Var}}
+\newcommand{\cov}[0]{\operatorname{Cov}}
+\newcommand{\diag}[0]{\operatorname{diag}}
+\newcommand{\matrs}[1]{\boldsymbol{#1}}
+\newcommand{\vone}[0]{\vect{1}}
+\newcommand{\va}[0]{\vect{a}}
+\newcommand{\vb}[0]{\vect{b}}
+\newcommand{\vc}[0]{\vect{c}}
+\newcommand{\vh}[0]{\vect{h}}
+\newcommand{\vv}[0]{\vect{v}}
+\newcommand{\vx}[0]{\vect{x}}
+\newcommand{\vw}[0]{\vect{w}}
+\newcommand{\vs}[0]{\vect{s}}
+\newcommand{\vf}[0]{\vect{f}}
+\newcommand{\ve}[0]{\vect{e}}
+\newcommand{\vy}[0]{\vect{y}}
+\newcommand{\vg}[0]{\vect{g}}
+\newcommand{\vr}[0]{\vect{r}}
+\newcommand{\vm}[0]{\vect{m}}
+\newcommand{\vu}[0]{\vect{u}}
+\newcommand{\vL}[0]{\vect{L}}
+\newcommand{\vz}[0]{\vect{z}}
+\newcommand{\vp}[0]{\vect{p}}
+\newcommand{\mO}[0]{\matr{O}}
+\newcommand{\mC}[0]{\matr{C}}
+\newcommand{\mW}[0]{\matr{W}}
+\newcommand{\mG}[0]{\matr{G}}
+\newcommand{\mX}[0]{\matr{X}}
+\newcommand{\mQ}[0]{\matr{Q}}
+\newcommand{\mU}[0]{\matr{U}}
+\newcommand{\mV}[0]{\matr{V}}
+\newcommand{\mL}[0]{\matr{L}}
+\newcommand{\mR}[0]{\matr{R}}
+\newcommand{\mA}{\matr{A}}
+\newcommand{\mD}{\matr{D}}
+\newcommand{\mS}{\matr{S}}
+\newcommand{\mI}{\matr{I}}
+\newcommand{\td}[0]{\text{d}}
+\newcommand{\vsig}[0]{\vects{\sigma}}
+\newcommand{\valpha}[0]{\vects{\alpha}}
+\newcommand{\vmu}[0]{\vects{\mu}}
+\newcommand{\tf}[0]{\text{m}}
+\newcommand{\tdf}[0]{\text{dm}}
+\newcommand{\TT}[0]{{\vects{\theta}}}
+\newcommand{\grad}[0]{\nabla}
+\newcommand{\alert}[1]{\textcolor{red}{#1}}
+\newcommand{\N}[0]{\mathcal{N}}
+\newcommand{\LL}[0]{\mathcal{L}}
+\newcommand{\HH}[0]{\mathcal{H}}
+\newcommand{\RR}[0]{\mathbb{R}}
+\newcommand{\Scal}[0]{\mathcal{S}}
+\newcommand{\sigmoid}{\sigma}
+\newcommand{\softmax}{\text{softmax}}
+\newcommand{\E}[0]{\mathbb{E}}
+\newcommand{\enabla}[0]{\ensuremath{%
+    \overset{\raisebox{-0.3ex}[0.5ex][0ex]{%
+    \ensuremath{\scriptscriptstyle e}}}{\nabla}}}
+\newcommand{\enhnabla}[0]{\nabla_{\hspace{-0.5mm}e}\,}
+\newcommand{\tred}[1]{\textcolor{red}{#1}}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+% \DeclareMathOperator*{\argmax}{arg\,max}
+
+\title{\heiti{}\zihao{3} 在线呼叫中心的智能客服问答机器人
+}
+\author{张心泽}
+\date{\today}
+
+\begin{document}
+    
+    \maketitle
+
+    \input{0_before-report.tex}
+    \input{1_introduction.tex}
+    \input{2_peer-system.tex}
+    \input{3_mixed_system.tex}
+    % \input{_abstract.tex}
+    % \input{_introduction.tex}
+    % \input{_data_collection.tex}
+    % \input{_likelihood.tex}
+    % \input{_reinforcement.tex}
+    % \input{_rollout.tex}
+    % \input{_experiments.tex}
+    % \input{_analysis.tex}
+
+    % \nocite{*}
+    \bibliography{_citation}
+    % \nocite{*}
+    \bibliographystyle{unsrtnat}
+\end{document}

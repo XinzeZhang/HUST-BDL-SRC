@@ -1,0 +1,21 @@
+\section{现象}
+\label{section:analysis}
+\zihao{-4}
+\input{__table_example}
+
+RL+ROLLOUTS模型的谈判明显要比LIKELIHOOD模型花费更多的轮数，这表明RL+ROLLOUTS谈判起来更加努力。
+但在一些情景下，RL+ROLLOUTS模型更倾向在每一轮中坚持价值最大的需求仅做出表述方式上的改变。
+这在实际与人类谈判时，人类更有可能在较少轮数内直接放弃谈判而不会像机器一样接受或是最终disagree。
+
+欺骗是一种高级的谈判策略，FAIR发现RL+ROLLOUTS模型在某些情景中假装对价值底的项目感兴趣，最终\quotes{妥协}
+取得高价值项目，
+如表\ref{table:example}。
+
+FAIR认为此篇论文所提出的模型能够产生流畅的对话语句。
+不过个人通过观察数据集认为，首先训练集和测试集中的人-人对话语句内词汇量较少，语法结构较为简单。
+因此流畅的对话语句不足为奇。FAIR也提出会在将来扩充表述的多样性。
+
+FAIR发现RL+ROLLOUTS模型的一种语言错误普遍发生在agreement的语境下却提出了更进一步的要求即counter offer。
+这一行为很少在人类身上发生。
+FAIR认为出现这种情况的原因在于，在训练集中，agree往往处于谈判结束前，而且对方代理很少就agree再进行谈判。
+因此，RL+ROLLOUTS模型可能认为在谈判快要提出agree时进行counter offer有助于对方接收该要求。
