@@ -1,0 +1,52 @@
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ResolveAssemblyReference.cache
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.AboutFrm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.CountTagsFrm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.CustomCmdFrm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.Form1.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.Frm16portAnts.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.FrmLongTaskExt.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.FrmLongTaskTagRecv.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.FrmMsgDebug.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.FrmPsam.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.InventoryParasform.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.Iso186bopForm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.logFrm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.longtaskfrm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.MulperlockFrm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.MultiBankWriteFrm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.Properties.Resources.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.readerParaform.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.gen2opForm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.regulatoryFrm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.updatefrm.resources
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.csproj.GenerateResource.Cache
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\bin\Debug\ModuleReaderManager.exe
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\bin\Debug\ModuleReaderManager.pdb
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.exe
+E:\doc\超高频读写器API\华士精诚\ModuleAPI_2.2_20151205\windows\c#\demo_src\obj\Debug\ModuleReaderManager.pdb
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\bin\Debug\ModuleReaderManager.exe
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\bin\Debug\ModuleReaderManager.pdb
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.csprojResolveAssemblyReference.cache
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.AboutFrm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.CountTagsFrm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.CustomCmdFrm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.Form1.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.Frm16portAnts.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.FrmLongTaskExt.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.FrmLongTaskTagRecv.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.FrmMsgDebug.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.FrmPsam.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.InventoryParasform.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.Iso186bopForm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.logFrm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.longtaskfrm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.MulperlockFrm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.MultiBankWriteFrm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.Properties.Resources.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.readerParaform.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.gen2opForm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.regulatoryFrm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.updatefrm.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.csproj.GenerateResource.Cache
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.exe
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\demo_src\obj\Debug\ModuleReaderManager.pdb

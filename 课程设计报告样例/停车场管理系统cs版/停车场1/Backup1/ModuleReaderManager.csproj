@@ -1,0 +1,274 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F2A9020E-6A7A-4303-A3AF-B98EB3612D49}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ModuleReaderManager</RootNamespace>
+    <AssemblyName>ModuleReaderManager</AssemblyName>
+    <ApplicationIcon>module.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <SignManifests>false</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ModuleAPI, Version=1.11.7.8, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutFrm.Designer.cs">
+      <DependentUpon>AboutFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountTagsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountTagsFrm.Designer.cs">
+      <DependentUpon>CountTagsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomCmdFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomCmdFrm.Designer.cs">
+      <DependentUpon>CustomCmdFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm16portAnts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm16portAnts.Designer.cs">
+      <DependentUpon>Frm16portAnts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLongTaskExt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLongTaskExt.designer.cs">
+      <DependentUpon>FrmLongTaskExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLongTaskTagRecv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLongTaskTagRecv.Designer.cs">
+      <DependentUpon>FrmLongTaskTagRecv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMsgDebug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMsgDebug.Designer.cs">
+      <DependentUpon>FrmMsgDebug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPsam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPsam.Designer.cs">
+      <DependentUpon>FrmPsam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryParasform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryParasform.Designer.cs">
+      <DependentUpon>InventoryParasform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Iso186bopForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iso186bopForm.Designer.cs">
+      <DependentUpon>Iso186bopForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logFrm.Designer.cs">
+      <DependentUpon>logFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="longtaskfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="longtaskfrm.Designer.cs">
+      <DependentUpon>longtaskfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MulperlockFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MulperlockFrm.Designer.cs">
+      <DependentUpon>MulperlockFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiBankWriteFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiBankWriteFrm.Designer.cs">
+      <DependentUpon>MultiBankWriteFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountTagsFrm.resx">
+      <DependentUpon>CountTagsFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomCmdFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CustomCmdFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm16portAnts.resx">
+      <DependentUpon>Frm16portAnts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLongTaskExt.resx">
+      <DependentUpon>FrmLongTaskExt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLongTaskTagRecv.resx">
+      <DependentUpon>FrmLongTaskTagRecv.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMsgDebug.resx">
+      <DependentUpon>FrmMsgDebug.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPsam.resx">
+      <DependentUpon>FrmPsam.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryParasform.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InventoryParasform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iso186bopForm.resx">
+      <DependentUpon>Iso186bopForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logFrm.resx">
+      <DependentUpon>logFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="longtaskfrm.resx">
+      <DependentUpon>longtaskfrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MulperlockFrm.resx">
+      <DependentUpon>MulperlockFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiBankWriteFrm.resx">
+      <DependentUpon>MultiBankWriteFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="readerParaform.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>readerParaform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gen2opForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>gen2opForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="regulatoryFrm.resx">
+      <DependentUpon>regulatoryFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatefrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>updatefrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="readerParaform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="readerParaform.Designer.cs">
+      <DependentUpon>readerParaform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gen2opForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gen2opForm.Designer.cs">
+      <DependentUpon>gen2opForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="regulatoryFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regulatoryFrm.Designer.cs">
+      <DependentUpon>regulatoryFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updatefrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatefrm.Designer.cs">
+      <DependentUpon>updatefrm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1111.ico" />
+    <Content Include="module.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

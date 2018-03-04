@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManager", "CarManager.csproj", "{30463A40-3F00-4B6F-9C81-3E44AB2C7F30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopUHF", "..\桌面发卡器\DesktopUHF\DesktopUHF.csproj", "{D69FC078-DDC2-4E96-A48A-FF9FB8B5E53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleReaderManager", "..\demo_src\ModuleReaderManager.csproj", "{F2A9020E-6A7A-4303-A3AF-B98EB3612D49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1EE471D-0787-4DD3-B0B5-38D69CD88ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositionManage", "..\PositionManage\PositionManage.csproj", "{2720CE00-B23F-4D84-959E-60F0DC396B56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30463A40-3F00-4B6F-9C81-3E44AB2C7F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30463A40-3F00-4B6F-9C81-3E44AB2C7F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30463A40-3F00-4B6F-9C81-3E44AB2C7F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30463A40-3F00-4B6F-9C81-3E44AB2C7F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69FC078-DDC2-4E96-A48A-FF9FB8B5E53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69FC078-DDC2-4E96-A48A-FF9FB8B5E53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69FC078-DDC2-4E96-A48A-FF9FB8B5E53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69FC078-DDC2-4E96-A48A-FF9FB8B5E53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A9020E-6A7A-4303-A3AF-B98EB3612D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A9020E-6A7A-4303-A3AF-B98EB3612D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A9020E-6A7A-4303-A3AF-B98EB3612D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A9020E-6A7A-4303-A3AF-B98EB3612D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2720CE00-B23F-4D84-959E-60F0DC396B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2720CE00-B23F-4D84-959E-60F0DC396B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2720CE00-B23F-4D84-959E-60F0DC396B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2720CE00-B23F-4D84-959E-60F0DC396B56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

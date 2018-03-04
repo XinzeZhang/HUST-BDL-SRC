@@ -1,0 +1,372 @@
+<HTML>
+<head>
+<TITLE>Calendar</TITLE>
+<STYLE type="text/css">
+.TABLEHEAD {
+	font-size : 9pt;
+	font-family : Arial;
+	font-weight : bold;
+	color : white;
+	background-color : #66CCFF;
+}
+
+.DAYS {
+	font-size : 9pt;
+	font-weight : Bold;
+	font-family : Arial;
+	font-style : normal;
+	color : #000000;
+	background-color : FFFFCC;
+}
+
+.BEFORETODAY {
+	font-size : 9pt;
+	font-family : Arial;
+	font-weight : normal;
+	font-style : normal;
+	color : #000080;
+	background-color : #CCEEFF;
+	line-height: 20px;
+}
+
+.WeekEndBefore {
+	font-size : 9pt;
+	font-family : Arial;
+	font-weight : normal;
+	font-style : normal;
+	color : red;
+	background-color : #CCEEFF;
+	line-height: 20px;
+}
+
+.SpecialDayBefore {
+	font-size : 9pt;
+	font-family : Arial;
+	font-weight : normal;
+	font-style : normal;
+	color : red;
+	background-color : #CCEEFF;
+	line-height: 20px;
+}
+
+.WeekEndAfter {
+	font-size : 9pt;
+	font-family : Arial;
+	font-weight : normal;
+	font-style : normal;
+	color : red;
+	background-color : #CCCCFF;
+	line-height: 20px;
+}
+
+.AFTERTODAY {
+	font-size : 9pt;
+	font-family : Arial;
+	font-weight : normal;
+	font-style : normal;
+	color : #000080;
+	background-color : #CCCCFF;
+	line-height: 20px;
+}
+
+.SpecialDayAfter {
+	font-size : 9pt;
+	font-family : Arial;
+	font-weight : normal;
+	font-style : normal;
+	color : red;
+	background-color : #CCCCFF;
+	line-height: 20px;
+}
+
+.TODAY {
+	font-size : 9pt;
+	font-family : Arial;
+	font-weight : bold;
+	font-style : normal;
+	color : red;
+	background-color : #FFCC99;
+	line-height: 20px;
+}
+</STYLE>
+
+<SCRIPT LANGUAGE="JScript">
+<!--// Hide JS Code
+
+// AUTHOR:       Unknown
+// MODIFIED BY:  Ng Kim Boon
+// MODIFIED BY/DATE:  Cheng Wei/2001-Feb-17
+// COMPANY:      NCS Pte. Ltd
+
+var defaultFormat = "yyyy-mm-dd";
+//var defaultFormat = "mm/dd/yyyy";
+var dateFormat = defaultFormat;
+var days = new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+//var specialDay=new Array("1977/5/27","2000/9/11","2004/5/27");
+//var months = new Array( "一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月" );
+//var days = new Array("SUN","MON","TUE","WED","THU","FRI","SAT");
+var specialDay=new Array("1977/5/27","2000/9/11","2004/5/27");
+var months = new Array( "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" );
+var numDays = new Array( 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 );
+var today = new Date();
+var currMonth;
+var beginYear = 1900;
+var endYear = 2100;
+
+function init() {
+
+	 dateFormat = defaultFormat;
+
+	var m ;
+	m = today.getMonth() + 1;
+
+	var y;
+	 y = today.getFullYear();
+	currMonth = new Month( y, m );
+	var strHtml = showCalendar(currMonth);
+	 MyLabel.outerHTML="<Label ID=MyLabel>"  + strHtml + "</Label>";
+	 restorePrevFocus();
+	 document.form1.hidFlag.value="m";
+}
+
+function restorePrevFocus(){
+  var flag=document.form1.hidFlag.value;
+	switch (flag){
+		case "m"://month combo
+				document.form1.m.focus();
+				break;
+		case "y"://year combo
+				document.form1.y.focus();
+				break;
+		case "p"://previous month
+				document.all.p.focus();
+				break;
+		case "n"://next month
+				document.all.n.focus();
+				break;
+		default :
+				document.form1.m.focus();
+	}
+}
+
+function prevMonth(){
+	var y = document.form1.y.value;
+	var m = document.form1.m.value;
+	currMonth = new Month( y,m );
+	var prevMonth = getRelativeMonth(currMonth , -1 );
+	prevMonth = new Month( prevMonth.year, prevMonth.month );
+	strHtml = showCalendar(prevMonth);
+	MyLabel.outerHTML="<Label ID=MyLabel>"  + strHtml + "</Label>";
+	 restorePrevFocus();
+	 document.form1.hidFlag.value="p";
+}
+
+function nextMonth(){
+	var y = document.form1.y.value;
+	var m = document.form1.m.value;
+	currMonth = new Month( y,m );
+	var nextMonth = getRelativeMonth(currMonth , 1 );
+	nextMonth = new Month( nextMonth.year, nextMonth.month );
+	strHtml = showCalendar(nextMonth);
+	MyLabel.outerHTML="<Label ID=MyLabel>"  + strHtml + "</Label>";
+	 restorePrevFocus();
+	 document.form1.hidFlag.value="n";
+}
+
+function changeMonth(){
+	var y = document.form1.y.value;
+	var m = document.form1.m.value;
+	currMonth = new Month( y,m );
+	strHtml = showCalendar(currMonth);
+	MyLabel.outerHTML="<Label ID=MyLabel>"  + strHtml + "</Label>";
+	 restorePrevFocus();
+	 document.form1.hidFlag.value="m";
+}
+
+function changeYear(){
+	var y = document.form1.y.value;
+	var m = document.form1.m.value;
+	if (document.form1.y.value==document.form1.hidYear.value) return;
+	currMonth = new Month( y,m );
+	strHtml = showCalendar(currMonth);
+	MyLabel.outerHTML="<Label ID=MyLabel>"  + strHtml + "</Label>";
+	 restorePrevFocus();
+	 document.form1.hidFlag.value="y";
+}
+
+
+function showCalendar( currMonth ) {
+	var prevMonth = getRelativeMonth( currMonth, -1 );
+	var nextMonth = getRelativeMonth( currMonth, 1 );
+	var strHtml="";
+	strHtml= strHtml + "<TABLE border=0 cellspacing=1 width=400><TR class=TABLEHEAD align=center>";
+	strHtml= strHtml + "<TD colspan=2 ><A class=TABLEHEAD id=p  tabindex=0  style='cursor:hand;'  onFocus='document.form1.hidFlag.value=\"p\";' onKeyPress='prevMonth()' onclick='prevMonth()'" + ">上个月</A></TD>";
+//	strHtml= strHtml + "<TD colspan=5 class=TABLEHEAD>";
+	//strHtml= strHtml + "<TD colspan=2 ><A class=TABLEHEAD id=p  tabindex=0  style='cursor:hand;'  onFocus='document.form1.hidFlag.value=\"p\";' onKeyPress='prevMonth()' onclick='prevMonth()'" + ">Previous Month</A></TD>";
+	strHtml= strHtml + "<TD colspan=3 class=TABLEHEAD>";
+
+	strHtml= strHtml +  "<SELECT NAME=m  tabindex=1 onFocus='document.form1.hidFlag.value=\"m\";'  onChange='javascript:changeMonth()'>" ;
+	for (var i=1; i<13; i++ )
+		strHtml= strHtml +  "<OPTION value=" + i + ((i==currMonth.month)? " selected" : "")+ ">" + months[i-1] ;
+	strHtml= strHtml +  "</SELECT>" ;		
+
+	strHtml= strHtml +  "<SELECT NAME=y  onFocus='document.form1.hidFlag.value=\"y\";' tabindex=2  onChange='javascript:changeYear()'>" ;
+	for (var tempYear=beginYear; tempYear<endYear; tempYear++ )
+		strHtml= strHtml +  "<OPTION value=" + tempYear + ((tempYear==currMonth.year)? " selected" : "")+ ">" + tempYear ;
+	strHtml= strHtml +  "</SELECT>" ;
+
+	strHtml= strHtml +  "<INPUT type=hidden name=hidYear value=" + currMonth.year + ">" ;
+	strHtml= strHtml +  "</TD>" ;
+
+	strHtml= strHtml + "<TD colspan=2><A  tabindex=3 id=n class=TABLEHEAD style='cursor:hand;'  onFocus='document.form1.hidFlag.value=\"n\";'  onKeyPress='nextMonth()'  onclick='nextMonth()'" + ">下个月</a></td>";
+	//strHtml= strHtml + "<TD colspan=2><A  tabindex=3 id=n class=TABLEHEAD style='cursor:hand;'  onFocus='document.form1.hidFlag.value=\"n\";'  onKeyPress='nextMonth()'  onclick='nextMonth()'" + ">Next Month</a></td>";
+	strHtml= strHtml + "</TR>";
+
+	// writes the days of the week
+	strHtml= strHtml + "<TR align=center bgcolor=#FFFFFF>";
+	for(var d=0;d<7;d++){
+		strHtml= strHtml + "<TD width=14% CLASS=DAYS><B>&nbsp;" + days[d] + "&nbsp;</B></TD>";
+	}
+	strHtml= strHtml + "</TR>";
+
+	var daycounter = 1;
+	var cls = "";
+	// allows month to possibly span over 6 weeks 
+	for(var i=0; i<6; i++){
+		// if we have not exceeded number of days in month
+		if(daycounter<=currMonth.length) {
+			strHtml= strHtml +"<TR align=center>"
+			
+			// display each day of the week
+			for(var j=0;j<7;j++){
+
+				// First choose different style for different period.
+
+				// Not yet the first day of the month, or 
+				// it has exceeded the last day in the month.
+				if( (i==0 && j<currMonth.firstDay) || daycounter>currMonth.length) {
+					cls = "";
+
+				// Current date
+				} else if(daycounter==today.getDate() && currMonth.month==today.getMonth()+1 && currMonth.year==today.getFullYear()) {
+					cls = " class=TODAY";
+
+				// Future date
+				} else if((daycounter>today.getDate() && currMonth.month==today.getMonth()+1 && currMonth.year==today.getFullYear()) || (currMonth.month>today.getMonth()+1 && currMonth.year==today.getFullYear()) || currMonth.year>today.getFullYear()) {
+					if (j==0 || j==6) {
+						cls=" class=WeekEndAfter"
+					}else{ 
+							cls = " class=AFTERTODAY";
+							for (k=0;k < specialDay.length; k++){
+								if (currMonth.year + "/" + currMonth.month + "/" + daycounter ==specialDay[k]) {
+									cls = " class=SpecialDayAfter";
+									break;
+								}
+							}	
+						}		
+
+				// Past date
+				} else {
+					if (j==0 || j==6) {
+						cls=" class=WeekEndBefore"
+					}else{ 
+							cls = " class=BEFORETODAY";
+							for (k=0;k < specialDay.length; k++){
+								if (currMonth.year + "/" + currMonth.month + "/" + daycounter ==specialDay[k]) {
+									cls = " class=SpecialDayBefore";
+									break;
+								}
+							}	
+						}		
+
+				}
+
+				strHtml= strHtml + "<TD" + cls + ">" ;
+				if (cls!="") {
+					var tempReturnDate= "returnDate(" + currMonth.year + "," + currMonth.month + "," + daycounter + ")";
+					strHtml= strHtml + "<A style='cursor:hand;' tabindex=" + (daycounter+10) + cls + " onKeyPress='" + tempReturnDate + "' onclick='" + tempReturnDate + "'>"  + daycounter + "</A>";
+					daycounter++;
+				}
+				strHtml= strHtml + "</TD>" ;
+
+				// Do not continue if already passed last day
+				if ( daycounter > currMonth.length ) break;
+
+			}//for
+
+			strHtml= strHtml + "</TR>";
+		}//if
+
+	}//for
+	strHtml= strHtml + "</Table>";
+	return strHtml;
+}
+
+
+function returnDate(y, m, d) {
+  // Put the date value back in the underlying form in the right format.
+  // the 'field' var is parsed from the URL that is passed from the parent
+  // form.  i.e. /Calendar.html?field=xxx.yyy
+	//						where yyy is the name of the element in form xxx
+  // This allows the script to be dynamic if you have multiple date fields 
+	// on a form.
+  
+  var sData = dialogArguments
+sData.returnValue=format(dateFormat, y, m, d); 
+	self.close();
+}
+
+function format( f, y, m, d ) {
+	var ds = replace( f, "yyyy", y );
+	ds = replace( ds, "yy", y.toString().substr(2) );
+	ds = replace( ds, "y", y );
+	ds = replace( ds, "mmm", months[m-1] );
+	ds = replace( ds, "mm", (100+m).toString().substr(1) );
+	ds = replace( ds, "m", m );
+	ds = replace( ds, "dd", (100+d).toString().substr(1) );
+	ds = replace( ds, "d", d );
+	return ds;
+}
+
+function Month( y, m ) {
+	// properties
+	this.year = y - 0;	// minus 0 to convert it to number
+	this.month = m - 0;
+	this.name = months[m-1];
+	this.length = numDays[m-1];
+	if ( (m==2) && ((y%4==0 && y%100!=0) || y%400==0)) this.length = 29;
+
+	var d = new Date(this.year, this.month-1, 1);
+	this.firstDay = d.getDay();
+}
+
+function getRelativeMonth( mth, n ) { // n must be -12 to +12
+  var m = mth.month + n; 
+	var y = mth.year;
+
+  if (m <= 0) {   
+    m += 12;
+    y--;
+  } else if ( m > 12 ) {
+    m -= 12;
+    y++;
+  }
+
+	return new Month( y, m );
+}
+
+function replace( str, o, n ) {
+	var pos = str.indexOf( o );
+	if (pos == -1) return str;
+	return str.substr( 0, pos ) + n + str.substr( pos + o.length );
+}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY onload='init();' style="overflow-y:hidden">
+<form name=form1>
+<Label ID="MyLabel"></Label>
+<input type=hidden name="hidFlag" >
+</form>
+</BODY>
+</HTML>

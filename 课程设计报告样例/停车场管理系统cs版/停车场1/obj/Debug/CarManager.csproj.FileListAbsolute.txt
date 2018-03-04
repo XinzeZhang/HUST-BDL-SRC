@@ -1,0 +1,117 @@
+D:\Documents\Visual Studio 2005\Projects\CarManager\CarManager\bin\Debug\CarManager.exe.config
+D:\Documents\Visual Studio 2005\Projects\CarManager\CarManager\obj\Debug\Interop.MSACAL.dll
+D:\Documents\Visual Studio 2005\Projects\CarManager\CarManager\obj\Debug\Interop.MSAdodcLib.dll
+D:\Documents\Visual Studio 2005\Projects\CarManager\CarManager\obj\Debug\AxInterop.MSACAL.dll
+D:\Documents\Visual Studio 2005\Projects\CarManager\CarManager\obj\Debug\AxInterop.MSAdodcLib.dll
+D:\Documents\Visual Studio 2005\Projects\CarManager\CarManager\obj\Debug\CarManager.csproj.ResolveComReference.cache
+D:\Documents\Visual Studio 2005\Projects\CarManager\CarManager\obj\Debug\CarManager.exe
+D:\Documents\Visual Studio 2005\Projects\CarManager\CarManager\obj\Debug\CarManager.pdb
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\bin\Debug\CarManager.exe.config
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\AxInterop.MSComctlLib.dll
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.csproj.ResolveComReference.cache
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.exe
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.pdb
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\ResolveAssemblyReference.cache
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.AboutBox1.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.Fabout.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.Fcapacity.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.FCarin.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.Fdata.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.Fhelp.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.Flog.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.Fportstate.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.Ffare.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.Properties.Resources.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.UserControl1.resources
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.csproj.GenerateResource.Cache
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.exe.manifest
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\bin\Debug\CarManager.exe.manifest
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\bin\Debug\CarManager.application
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\bin\Debug\CarManager.exe
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\bin\Debug\CarManager.pdb
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\bin\Debug\office.dll
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\bin\Debug\AxInterop.MSComctlLib.dll
+E:\项目\wwb调试\审核后台源码\CarManager_bfc71cbe-176d-4d2a-974f-e91fa355c7a8\CarManager\obj\Debug\CarManager.application
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.csprojResolveAssemblyReference.cache
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.exe
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.pdb
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\bin\Debug\CarManager.exe.config
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\bin\Debug\CarManager.exe.manifest
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\bin\Debug\CarManager.application
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\bin\Debug\CarManager.exe
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\bin\Debug\CarManager.pdb
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.csproj.ResolveComReference.cache
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.AboutBox1.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.Fabout.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.Fcapacity.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.FCarin.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.Fdata.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.Fhelp.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.Flog.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.Fportstate.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.Ffare.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.Properties.Resources.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.UserControl1.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.csproj.GenerateResource.Cache
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.exe.manifest
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场1\obj\Debug\CarManager.application
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\bin\Debug\CarManager.exe.config
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.csproj.ResolveComReference.cache
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.exe
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.pdb
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\bin\Debug\CarManager.exe.manifest
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\bin\Debug\CarManager.application
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\bin\Debug\CarManager.exe
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\bin\Debug\CarManager.pdb
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.csprojResolveAssemblyReference.cache
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.AboutBox1.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.Fabout.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.Fcapacity.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.FCarin.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.Fdata.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.Fhelp.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.Flog.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.Fportstate.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.Ffare.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.Properties.Resources.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.UserControl1.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.csproj.GenerateResource.Cache
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.exe.manifest
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.application
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.Login.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.AddManager.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.LookManager.resources
+E:\Documents\华科\管理信息系统分析与设计&课程设计 三下\课设\停车场管理系统\停车场1\obj\Debug\CarManager.EditManager.resources
+D:\停车场管理系统wxx\停车场1\bin\Debug\CarManager.exe.config
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.csproj.ResolveComReference.cache
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.exe
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.pdb
+D:\停车场管理系统wxx\停车场1\bin\Debug\CarManager.exe.manifest
+D:\停车场管理系统wxx\停车场1\bin\Debug\CarManager.application
+D:\停车场管理系统wxx\停车场1\bin\Debug\CarManager.exe
+D:\停车场管理系统wxx\停车场1\bin\Debug\CarManager.pdb
+D:\停车场管理系统wxx\停车场1\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.csprojResolveAssemblyReference.cache
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.AboutBox1.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.AddManager.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.EditManager.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Fabout.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Fcapacity.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.FCarin.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Fdata.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Fhelp.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Flog.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Fportstate.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Ffare.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Login.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.LookManager.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Properties.Resources.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.UserControl1.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.csproj.GenerateResource.Cache
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.exe.manifest
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.application
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Fuser.resources
+D:\停车场管理系统wxx\停车场1\obj\Debug\CarManager.Fuserall.resources

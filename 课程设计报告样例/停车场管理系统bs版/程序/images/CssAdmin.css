@@ -1,0 +1,189 @@
+﻿body {
+	background:#AECAF4;
+	margin:0px;
+	font:9pt 宋体;
+	font-size: 9pt;
+	text-decoration: none;
+	scrollbar-face-color: #2b73f1;
+	scrollbar-highlight-color: #0650d2;
+	scrollbar-shadow-color: #449ae8;
+	scrollbar-3dlight-color: #449ae8;
+	scrollbar-arrow-color: #02338a;
+	scrollbar-track-color: #0650d2;
+	scrollbar-darkshadow-color: #0650d2;
+}
+A:link {
+    color: #2f2f2f;
+	text-decoration: none;
+}
+A:visited {
+    color: #2f2f2f;
+	text-decoration: none;
+}
+A:hover { 
+	color: #FF6600;
+	text-decoration: none;
+}
+td {
+    font-family:"宋体";
+	font-size: 12px;
+	color: #2f2f2f;
+	line-height: 16px;
+}
+/* 后台管理导航-------------------------------------- */
+td.SystemLeft {
+    font-family:"宋体";
+	font-size: 12px;
+	color: #ffffff;
+}
+td.SystemLeft A:link {
+    color: #003EBD;
+	text-decoration: none;
+}
+td.SystemLeft A:visited {
+    color: #003EBD;
+	text-decoration: none;
+}
+td.SystemLeft A:hover { 
+	color: #ffffff;
+	text-decoration: none;
+}
+textarea.ConstSet {
+	background-color: #F8FAFC;
+	border: 1px solid #8DB5E9;
+	border-top: #8DB5E9 1px ridge; 
+	border-left: #8DB5E9 1px ridge; 
+    color: #333333;
+	scrollbar-3dlight-color:#DAE4EF;
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-darkshadow-color:#DAE4EF;
+	scrollbar-face-color:#DAE4EF;
+	scrollbar-highlight-color:#DAE4EF;
+	scrollbar-shadow-color:#DAE4EF;
+	scrollbar-track-color:#F8FAFC;
+}
+.button { 
+	border-left: #ffffff 1px ridge; 
+	border-right: #333333 1px ridge; 
+	border-top: #ffffff 1px ridge; 
+	border-bottom: #1c1c1c 1px ridge; 
+    font-family:"宋体";
+	font-size: 12px;
+    color: #1c1c1c; 
+	background-color: #EBF2F9; 
+	cursor: hand; 
+}
+.textfield{
+	border-top-width:1px;
+	border-bottom-width:2px;
+	border-left-width:1px;
+	border-right-width:2px;
+	font-size: 12px;
+	color: #2f2f2f;
+}
+
+/* 后台管理类别树-------------------------------------- */
+.SortFolderOpen {
+	background-image: url(Sort_Folder_Close.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortFolderClose {
+	background-image: url(Sort_Folder_Open.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortEndFolderOpen {
+	background-image: url(SortEnd_Folder_Close.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortEndFolderClose {
+	background-image: url(SortEnd_Folder_Open.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortListline {
+	padding-left: 16px;
+	background-image: url(Sort_Listline.gif);
+	background-repeat: repeat-y;
+}
+.SortEndListline {
+	padding-left: 16px;
+}
+.SortFile {
+	background-image: url(Sort_File.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	cursor: hand;
+	padding-left: 16px;
+}
+.SortFileEnd {
+	background-image: url(Sort_File_End.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	cursor: hand;
+	padding-left: 16px;
+}
+table {
+	border:0px;
+}
+td {
+	font:normal 12px 宋体;
+}
+img {
+	vertical-align:bottom;
+	border:0px;
+}
+a {
+	font:normal 12px 宋体;
+	　color:#000000;
+	text-decoration: none;
+}
+a:link {
+	color:#000000;
+	text-decoration: none;
+}
+a:hover {
+	color:#000000;
+}
+.sec_menu {
+	border-left:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+	overflow:hidden;
+	background:#d4ecf5;
+	text-align: right;
+}
+.menu_title {
+}
+.menu_title span {
+	position:relative;
+	top:2px;
+	left:8px;
+	color:#0f42a6;
+	font-weight:bold;
+}
+.menu_title2 {
+}
+.menu_title2 span {
+	position:relative;
+	top:2px;
+	left:8px;
+	color:#cc0000;
+	font-weight:bold;
+}
+.glow /*　标题文字发光效果定义，白字深蓝底 */ {
+	filter: glow(color=#ffffff, strength=1) dropshadow(color=#ffffff, offx=0, offy=1, );
+}

@@ -1,0 +1,47 @@
+停车场管理系统源码
+
+功能介绍：
+    双击软件的车位可以停车入库，右边显示
+车位的停车比例。
+    车辆管理： 费率管理 车辆管理
+    车辆入库：
+    数据管理：车帘管理 出入日志
+    应用程序：重置 清零
+注意：
+    使用之前需要先修改App.config中的数据库连接。
+    开发环境为Visual Studio 2008,数据库为SQL Server 2005，数据库文件在
+DB_51aspx文件夹中附加就行。
+
+作者：zp283577742
+
+源码下载及讨论地址：http://www.51aspx.com/Code/ParkingManager
+
+相关内容变更请以51Aspx官方网站最终显示为准
+本源码由51aspx调测并整理
+商业版资源请在作者或者51Aspx授权范围内使用，否则后果自负！
+如需转载免费版请注明作者信息及来源，以示对他人劳动成果的尊重！
+获得更有效最新的帮助技术支持看这里：http://www.51aspx.com/help
+
+                ╭═══════════════╮
+                ║         .Net源码专业站       ║
+  ╭══════┤     http://www.51aspx.com    ├══════╮
+  ║            ║ 论坛:http://bbs.51aspx.com   ║            ║
+  ║            ╰═══════════════╯            ║
+　║                                                          ║
+　║51Aspx声明：                                              ║
+  ║   1) 本站不保证所提供软件或程序的完整性和安全性。        ║
+  ║   2) 转载本站提供的资源请勿删除本说明文件。              ║
+  ║   3) 本站源码为网上搜集或网友提供，如果涉及或侵害到您的版║
+  ║      权，请立即通知我们。                                ║
+  ║   4) 本站提供免费代码只可供研究学习使用，切勿用于商业用途║
+  ║      由此引起一切后果与本站无关。                        ║
+  ║   5) 商业源码请在源码授权范围内进行使用！                ║
+　║                                                          ║
+  ║           51Aspx —— .Net源码服务专家                   ║
+  ║           联系方式 : support@51aspx.com                  ║
+  ║     ╭──────────────────────╮    ║
+  ╰══┤  .Net源码专业站 http://www.51aspx.com        ├══╯
+        ╰───────────────────────╯
+友情提示:
+    一般数据库文件默认在DB_51aspx文件夹下
+    更多使用帮助和协议请浏览http://www.51aspx.com/help
